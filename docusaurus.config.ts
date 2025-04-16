@@ -28,12 +28,24 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "ko", "vi"],
+    localeConfigs: {
+      en: {
+        label: "English",
+      },
+      ko: {
+        label: "Korean",
+      },
+      vi: {
+        label: "Vietnam",
+      },
+    },
   },
 
+  plugins: ["docusaurus-plugin-sass"],
   presets: [
     [
-      "classic",
+      "@docusaurus/preset-classic",
       {
         docs: {
           sidebarPath: "./sidebars.ts",
@@ -58,7 +70,7 @@ const config: Config = {
           onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: "./src/scss/index.scss",
         },
       } satisfies Preset.Options,
     ],
@@ -72,6 +84,7 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
+    searchParameters: {},
     navbar: {
       title: "My Site",
       logo: {
@@ -86,7 +99,7 @@ const config: Config = {
         },
         {
           type: "localeDropdown",
-          position: "left",
+          position: "right",
         },
         {
           type: "docSidebar",
@@ -99,6 +112,10 @@ const config: Config = {
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
+          position: "right",
+        },
+        {
+          type: "search",
           position: "right",
         },
       ],
