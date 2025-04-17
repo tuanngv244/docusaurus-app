@@ -2,12 +2,13 @@
 
 .header {
   height: 60px;
-  background-color: var(--ifm-background-color);
+  background-color: var(--ifm-background-color) !important;
   position: fixed;
   z-index: 1000;
   width: 100%;
   top: 0;
   left: 0;
+  border-bottom: 1px solid #f1f2f2;
   //   padding-bottom: 64px;
 
   .container {
@@ -18,6 +19,8 @@
 
   .navbar {
     box-shadow: none;
+    height: 59px;
+
     &__inner {
       @include mid(true);
       justify-content: space-between;
