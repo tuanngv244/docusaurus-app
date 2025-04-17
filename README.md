@@ -1,44 +1,42 @@
-# Website
+# Introduction
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+- Application build for 'Aprotech' with Docusaurus + ReactJS.
+- Build by team STV.
 
-### Installation
+# Run Project
 
-```
-$ yarn
-```
+- step 1: npm install
+- step 2: npm run start
 
-### Local Development
+# Setup Prettier
 
-```
-$ yarn start
-```
+- step 1: install extension Prettier
+- step 2: Choose any file ---> right click ---> format document with ---> select prettier.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+# Flow gitlab
 
-### Build
+- Branch follow prefix name: fix/**, feat/** ,hotfix/\_\_ ,...
+- Commit follow prefix name: fix:** ,feat:** ,hotfix:\_\_ ,...
+- ( \_\_ is content of bugs,features,updates,... )
 
-```
-$ yarn build
-```
+# Technologies
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- ReactJS
+- Docusaurus
 
-### Deployment
+# Tools
 
-Using SSH:
+- Prettier
+- Husky
 
-```
-$ USE_SSH=true yarn deploy
-```
+# Author
 
-Not using SSH:
+- Frontend - Nguyen Van Tuan
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+# Documentation setup
 
 - translation setup - https://www.youtube.com/watch?v=2Arz1j5n2u0
-- algolia: WKyLDf#8V6Wx7NE
+
+- search algolia setup: https://www.youtube.com/watch?v=xXwvDVGBlqQ
+
+* wait for Algolia team send API key, ID.
