@@ -35,9 +35,11 @@
 
 # Documentation setup
 
+`
+
 - translation setup - https://www.youtube.com/watch?v=2Arz1j5n2u0
 
-- search algolia setup: https://www.youtube.com/watch?v=xXwvDVGBlqQ
+- search algolia setup: https://www.youtube.com/watch?v=xXwvDVGBlqQ (20:00)
 
 * wait for Algolia team send API key, ID.
 * run command in Ubuntu:

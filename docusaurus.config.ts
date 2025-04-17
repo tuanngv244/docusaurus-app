@@ -95,20 +95,20 @@ const config: Config = {
       },
       items: [
         {
-          position: "left",
+          position: "right",
           label: "Open Aprotech",
           to: "/apis",
         },
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
-          position: "left",
+          position: "right",
           label: "Documentation",
         },
         {
           to: "/blog",
           label: "Blog",
-          position: "left",
+          position: "right",
         },
         {
           type: "localeDropdown",

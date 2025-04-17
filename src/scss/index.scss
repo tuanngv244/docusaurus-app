@@ -4,6 +4,7 @@
 @use "./_mixins.scss";
 
 // ----- PAGES ----- //
-@use "./header.scss";
-@use "./sidebar.scss";
+@use "./_header.scss";
+@use "./_sidebar.scss";
+@use "./_components.scss";
 @use "./home.scss";
