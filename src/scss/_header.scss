@@ -8,7 +8,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  border-bottom: 1px solid #f1f2f2;
+  border-bottom: 1px solid var(--main-header-border-color) !important;
   //   padding-bottom: 64px;
 
   .container {
@@ -20,6 +20,7 @@
   .navbar {
     box-shadow: none;
     height: 59px;
+    background-color: var(--ifm-background-color) !important;
 
     &__inner {
       @include mid(true);

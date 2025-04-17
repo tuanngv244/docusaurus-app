@@ -16,8 +16,10 @@
   --ifm-code-font-size: 95%;
   --ifm-background-color: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-
   --main-cubic-beizer: 0.25s all cubic-bezier(0.59, 0.29, 0.15, 0.93);
+
+  /* Header */
+  --main-header-border-color: #f1f2f2;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -31,6 +33,9 @@
   --ifm-color-primary-lightest: #4fddbf;
   --ifm-background-color: #000000;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Header */
+  --main-header-border-color: #444950;
 }
 
 [data-theme="light"] .DocSearch {
