@@ -84,6 +84,11 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     searchParameters: {},
     navbar: {
       title: "My Site",
@@ -94,24 +99,22 @@ const config: Config = {
       items: [
         {
           position: "left",
-          label: "APIs",
+          label: "Open Aprotech",
           to: "/apis",
-        },
-        {
-          type: "localeDropdown",
-          position: "right",
         },
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Documentation",
         },
-        { to: "/blog", label: "Blog", position: "left" },
-
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          to: "/blog",
+          label: "Blog",
+          position: "left",
+        },
+        {
+          type: "localeDropdown",
           position: "right",
         },
         {

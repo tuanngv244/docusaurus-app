@@ -1,2 +1,24 @@
+@use "./_mixins.scss" as *;
+
 .header {
+  height: 64px;
+  background-color: var(--ifm-background-color);
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  left: 0;
+  //   padding-bottom: 64px;
+}
+
+.navbar {
+  &__inner {
+    @include mid(true);
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__items {
+    width: fit-content;
+    justify-content: flex-end;
+  }
 }

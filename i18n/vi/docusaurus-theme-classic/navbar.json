@@ -22,5 +22,13 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.Open Aprotech": {
+    "message": "Open Aprotech",
+    "description": "Navbar item with label Open Aprotech"
+  },
+  "item.label.Documentation": {
+    "message": "Documentation",
+    "description": "Navbar item with label Documentation"
   }
 }

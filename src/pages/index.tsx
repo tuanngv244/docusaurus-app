@@ -7,6 +7,7 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
+import Translate from "@docusaurus/Translate";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -22,7 +23,7 @@ function HomepageHeader() {
             className="button red button--secondary button--lg"
             to="/docs/intro"
           >
-            Docusaurus Tutorial - 5min ⏱️
+            <Translate>Docusaurus Tutorial - 5min</Translate> ⏱️
           </Link>
         </div>
       </div>
