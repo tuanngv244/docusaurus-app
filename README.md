@@ -42,5 +42,6 @@
 * wait for Algolia team send API key, ID.
 * run command in Ubuntu:
 
+- cd ~/app/web/docusaurus-app
 - sudo docker run -it --env-file=.env -e "CONFIG=$(cat ./config.json | jq -
   r tostring)" algolia/docsearch-scraper
