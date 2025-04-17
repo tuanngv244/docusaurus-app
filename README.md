@@ -40,3 +40,7 @@
 - search algolia setup: https://www.youtube.com/watch?v=xXwvDVGBlqQ
 
 * wait for Algolia team send API key, ID.
+* run command in Ubuntu:
+
+- sudo docker run -it --env-file=.env -e "CONFIG=$(cat ./config.json | jq -
+  r tostring)" algolia/docsearch-scraper
