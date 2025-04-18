@@ -179,17 +179,17 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
     algolia: {
-      apiKey: "e66b399c2157a16b7b2c003b09542e4e",
-      appId: "5K2S2JPKGV",
-      indexName: "rayon",
+      apiKey: "17628b7b0bf1fa54a175ff85819743d4",
+      appId: "SNWY620F15",
+      indexName: "usaurus-app-three",
       contextualSearch: true,
       insights: true,
       // searchPagePath: "search",
       searchParameters: {},
-      replaceSearchResultPathname: {
-        from: "/docs/", // or as RegExp: /\/docs\//
-        to: "/",
-      },
+      // replaceSearchResultPathname: {
+      // from: "/docs/", // or as RegExp: /\/docs\//
+      // to: "/",
+      // },
     },
   } satisfies Preset.ThemeConfig,
 };
