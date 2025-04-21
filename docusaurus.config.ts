@@ -29,6 +29,7 @@ const config: Config = {
     localeConfigs: {
       en: {
         label: "English",
+        path: ".",
       },
       ko: {
         label: "Korean",
