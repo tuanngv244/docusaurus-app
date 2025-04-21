@@ -11,7 +11,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-### Getting Started AAAA
+### Getting Started DDDDDDD
 
 Get started by adfadf **creating a new site**.
 
